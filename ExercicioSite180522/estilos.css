@@ -1,0 +1,160 @@
+.barramenu {
+    background-color: black;
+    height: 70px;
+    width: 1300px;
+}
+
+.barramenu2 {
+    background-color: black;
+    height: 70px;
+    width: 1300px;
+}
+
+.barramenu3 {
+    background-color: black;
+    height: 70px;
+    width: 1300px;
+}
+
+.iconmenu {
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    line-height: 70px;
+
+}
+
+.Receitas {
+    background-color: rgb(207, 161, 211);
+    color: rgb(111, 33, 175);
+    font-family: 'Zen Loop', cursive;
+    font-size: x-large;
+}
+
+.Conversao {
+    background-color: rgb(207, 161, 211);
+    color: rgb(111, 33, 175);
+    font-family: 'Zen Loop', cursive;
+    font-size: x-large;
+}
+
+.Utensilios {
+    background-color: rgb(207, 161, 211);
+    color: rgb(111, 33, 175);
+    font-family: 'Zen Loop', cursive;
+    font-size: x-large;
+}
+
+.todasDivs {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-decoration: none;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    border-radius: 30px
+}
+
+.todasDivs:hover {
+    background-color: rgb(247, 247, 133);
+}
+
+.divconversao {
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-decoration: none;
+    height: 40px;
+    width: 180px;
+    line-height: 40px;
+    border-radius: 30px
+}
+
+.divconversao:hover {
+    background-color: rgb(247, 247, 133);
+}
+
+
+.banner {
+    justify-content: left;
+}
+
+.titulosbarra {
+    color: rgb(207, 161, 211);
+    font-family: 'Zen Loop', cursive;
+    font-size: 350%;
+    flex-direction: row;
+    text-align: center;
+
+}
+
+.recentes {
+    border-collapse: collapse;
+    height: 70px;
+    width: 1300px;
+}
+
+.barraCategorias {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+}
+
+.tCategorias {
+    color: rgb(96, 10, 104);
+    font-family: 'Zen Loop', cursive;
+    font-style: oblique;
+    font-size: 200%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.almondega {
+    display: flex;
+     text-align:left;
+    justify-content: center;
+    color: rgb(7, 20, 95);
+    font-family: 'Zen Loop', cursive;
+    font-size: 200%;
+}
+
+#tRecentes {
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.cozinheira {
+    display:flex;
+    justify-items: center;
+    color: rgb(7, 20, 95);
+    font-family: 'Zen Loop', cursive;
+    font-size: 200%;
+
+}
+
+#tcozinheira {
+    display: flexbox;
+    flex-direction: row;
+    text-align: center;
+    justify-content:center;
+}
+
+#rodape {
+    background-color: rgb(207, 161, 211);
+    color: rgb(7, 20, 95);
+    height: 70px;
+    width: 1300px;
+    text-align: center;
+    position: absolute;
+    font-family: 'Zen Loop', cursive;
+    font-size: large;
+}
