@@ -1,0 +1,45 @@
+/* Flutuar um componente dentro da tela - direta ou esquerda */
+
+ul{ /*é uma classe, não precisa do ponto*/
+    background: black;
+    height: 30px;
+}
+
+li{
+    float: left; /*cada item deve flutuar (um do lado do outro) a esquerda*/
+    list-style-type: none; /*Tirar o marcado "bolinha" da lista*/
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    padding-inline: 20px; /*Margim interna do componente (Separa os itens da lista horizontalmente)*/
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+li a:hover{
+    background: gray;
+    height: 30px;
+}
+.login{
+    float: right;
+
+}
+.login a:hover{
+    background-color: orangered;
+}
+
+.conteudoFlutuante{
+    border: 1px solid black;
+}
+.conteudoFlutuante img{
+    float: left;
+    margin: 20px;
+}
+img {
+    margin: 5px;
+}
+img:hover{
+    opacity: 0.7;
+}

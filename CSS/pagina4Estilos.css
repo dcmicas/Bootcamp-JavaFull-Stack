@@ -1,0 +1,66 @@
+/*Propriedade display  - organizar os componentes detro da página*/
+/* Valores mais usados - block (blocos), inline, inline-block,flex
+diplay:block - especifica que o elemento vai ocupar toda a linha
+div, titulos, paragrafos, form, reader, section, footer - tem como padrão display com valor block*/
+
+/*Display:inLine - o elemento não ocupa a linha toda e nem se inicia em uma proxima linha*/
+
+
+.emBloco{ /*vai ocupar a linha interia da tela*/
+    background-color: blue;
+    color: antiquewhite;
+}
+
+.emLinha{
+    background-color: blueviolet;
+    color: wheat;
+}
+
+.blocoEmLinha{
+    display: inline;
+}
+
+li{
+    display: inline-block; /*Para funcionar a altura e largura, tem que colocar o -block*/
+    background-color: coral;
+    /*as propriedade de altura, largura e margem não funcionam quando o elemento tem a propriedade displau:inLine*/
+    height: 50px;
+}
+
+.botao {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    /*display: inline-block;*/
+    display: flex; /*o botão no meio da página - margens iguais (auto)*/
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; /*ajustar o elmento detro de outro elemento para alinhamento (span)*/
+    height: 50px;
+    width: 50%;
+        line-height: 50px; /*para alinhar o texto do botão ao meio - o px tem que ser igual ao height*/
+
+}
+.vermelho{
+    background-color: red;
+    color:aliceblue
+}
+.verde {
+    background-color: green;
+    color:aliceblue
+}
+.azul{
+    background-color: blue;
+    color:aliceblue
+}
+.todasDivs{
+    display: inline-block;
+    height: 60px;
+    width: 30%;
+
+}
+.verde:hover { /*Não pode ser junto porque são duas configs diferentes*/
+    /* display: none; */
+    visibility: hidden; /*fica invisivel*/
+}

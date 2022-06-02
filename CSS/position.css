@@ -1,0 +1,61 @@
+/*Position
+Elementos: STATIC (padrão), 
+RELATIVE (em relação ao elemento pai), 
+FIXED (fixado na página), 
+ABSOLUTE, 
+STICH (pegajoso) */
+
+.container{
+    background-color: blue;
+    width: 80%;
+    height: 400px;
+}
+
+.divs{
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    border: 1px solid black;
+    color: white;
+}
+/*É possivel utilizar tanto o background color (neste caso, estamos especificando só a cor) 
+como só background (para adicionar mais parametro (ex. Opacidade)}*/
+
+.div1{
+    position: relative; /*Depois de declarar a posição, precisamos indicar qual é a posição */
+    top: 50px; /*Posição TOP - Relativo ao elemento pai (DIV CONTAINER) */
+    left: 50px;
+    background-color: blueviolet; 
+    z-index: 2; /*mandar o quadrado para tras da div 2 - plano cartesiano*/
+}
+
+.div2{
+    position: sticky; /*mantem o div "travado" na posição indicada, neste caso, 0px para ficar no topo*/
+    top: 0px;
+    background: black;
+    z-index: 12; /* quadrado para frente do div1 - plano cartesiano o maior é o que "manda" (que vai pra frente)
+        precisa do position para funcionar*/
+}
+
+.div3{
+    position: absolute; /*posicionamento absoluto a pagina e não ao Container*/
+    top: 50px;
+    right: 20PX;
+    background: red;
+}
+
+.whats{ /*vamos criar um botão do whats que fica fixo na tela*/
+    background: green;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    color: bisque;
+    border-radius: 50%; /*fazer o elemento uma bolinha*/
+    text-align: center;
+    line-height: 50px; /*alinhar o texto no centro da div*/
+    position: fixed; /*travar o botão na tela*/
+    bottom: 5px; /*margem inferior, onde o botão vai ficar fixado*/
+    right: 5px; /*margem direita, onde o botão vai ficar fixado*/
+    text-decoration: none;
+
+}

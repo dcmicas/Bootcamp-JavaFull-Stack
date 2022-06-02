@@ -1,0 +1,59 @@
+#paragrafo1{
+    color: rgb(216, 126, 219);       /* Cor da letra*/
+    font-size: px;                      /*Tamanho da Fonte*/
+    text-align: center;                 /*Alinhamento do texto*/
+    font-style:italic;                  /*Estilo - Negrito, italico, etc*/
+    text-decoration: underline;         /*Propridades de texto*/
+    text-transform: capitalize;         /*Todas as primeiras letras em maiusculo (tem vários estilos)*/
+    text-indent: 5cm;                  /*colocar o texto com espaçoo*/
+    letter-spacing: 5px;                /*Espaço entre as letras*/
+    word-spacing: 10px;                 /*Espaço entre as palavras*/
+}
+
+.minhaDiv{  /*Chamar a DIV do html*/
+    width: 80%; /*largura do "quadrado*/
+    height: 300px; /*altura*/
+    background-color: aqua; /*fundo do "quadrado da div"*/
+    background-image: url("../img/leao.png"); /*imagem de fundo do "quadrado" da div*/
+    background-repeat: no-repeat; /*não repetir a imagem de fundo, se não, vai ficar lado a lado*/
+    background-position: center; /*alinhamento da imagem*/
+    background-size: cover; /*Cover - Esticar para cobrir*/
+    border: 3px solid black;
+    border-width: 10px 3px;
+    border-radius: 20px;
+    }
+
+#Conteudo {  /*Estilizando o conteudo do paragrado de id conteudo*/
+    color: blue;
+    text-align: center;
+    border: 2px solid black;
+    background-color: brown;
+    padding: 10px; 
+}
+
+#boxModel{
+background-color: burlywood;
+border: 2px solid black;
+padding: 10px; /*margem interna*/
+margin: 25px; /*margem externa do elemento*/
+}
+
+.botao1{
+    width: 300px;
+    height: 150px;
+    padding: 30px;
+    background-color: blue;
+    color: white;
+    text-decoration: none; /*não aparecer a linha do botão*/
+    border: 2px solid green;
+    border-radius: 10px;
+}
+.botao1:hover{
+    background-color: rgb(160, 160, 224);
+    padding: 15px;
+    cursor: help;
+}
+    
+.botoes{
+    margin: 50px;
+}

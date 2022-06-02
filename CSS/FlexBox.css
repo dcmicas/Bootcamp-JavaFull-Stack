@@ -1,0 +1,27 @@
+/*Flexbox é uma evolução do float, mas não o elimina. Os dois podem ser utilizados de forma complementar.
+Sempre utilizaremos um container - div pai (é onde outros elementos vão estar contidos dentro dele) e div filhas
+A propriedade DISPLAY, SEMPRE fica no container */
+
+.container{
+    border: 1px solid black;
+    height: 500px;
+    display: flex; /*Item do lado do outro*/
+    /*flex-direction: column; direção como coluna - column reverser começa a coluna de baixo para cima*/
+    flex-direction: row;
+    /*por padrão, o flexBox não respeita a largura d os itens e coloca todos na mesma linha.
+    Para modificar isso, precisamos utilizar a propriedade flex-wrap*/
+    flex-wrap: wrap;
+   
+    /*Alinhamento das divs filhas*/
+
+    justify-content: center; /*faz o alinhamento na horizontal*/
+    align-items: center; /*faz o alinhamento na vertifical*/
+}
+
+.item{
+    /* width: 20%;  Se estiver declarado duas vezes, ele pega o ultimo*/
+    height: 200px;
+    background-color: red;
+    border: 1px solid black;
+    width: 45%; /*aumento do tamanho do item - divide esse valor entre os itens presentes na div*/
+}
