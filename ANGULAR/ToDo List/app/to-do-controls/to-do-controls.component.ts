@@ -1,4 +1,4 @@
-import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { Component, ElementRef, EventEmitter, OnInit, Output, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-to-do-controls',
@@ -10,8 +10,15 @@ export class ToDoControlsComponent implements OnInit {
 
 addTarefa: EventEmitter  <any> = new EventEmitter();
 salvar (texto:string):void{
-  this.addTarefa.emit(texto)
+  if (texto !=""){
+    this.addTarefa.emit(texto)
+  }
+ this.inputText.nativeElement.value=""
 }
+
+@ViewChild("input")
+inputText!: ElementRef;
+
 
   constructor() { }
 

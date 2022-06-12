@@ -1,3 +1,5 @@
-<input #input type="text"><br>
+<input #input type="text" (keyup.enter)="salvar"><br>
 
 <button (click)="salvar(input.value)">Adicionar</button><br><br>
+
+
