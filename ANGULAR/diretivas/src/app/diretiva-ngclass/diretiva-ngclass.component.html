@@ -1,0 +1,21 @@
+<h2>Ng Class</h2>
+
+<textarea
+    cols="30"
+    rows="10"
+    placeholder="Digite um texto com,  no máximo, 60 caracteres"
+    maxlength="60"
+    #txtArea 
+    (input)="atualizarCaracateresRestantes (txtArea.value.length)"
+></textarea>
+
+<span 
+    [ngClass]="{
+        sucesso: caracateresRestantes > 39,
+        aviso: caracateresRestantes <= 39 && caracateresRestantes > 10,
+        perigo: caracateresRestantes <= 10
+    }"
+>
+{{ caracateresRestantes}}
+
+</span>

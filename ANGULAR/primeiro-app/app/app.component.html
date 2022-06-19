@@ -1,0 +1,8 @@
+<div class="container">
+<input type = "button" [value]="simbolos[1]" (click)="decrementar()">
+<p class="counter">
+  {{ contador }}
+</p>
+<input type = "button" [value]="simbolos[0]" (click)="incrementar()">
+<input type="number" placeholder="Digite um número" (input)="adicionarValor($event)">
+</div>
