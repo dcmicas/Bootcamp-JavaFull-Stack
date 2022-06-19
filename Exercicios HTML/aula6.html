@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1> Formulário </h1>
+    <form>
+    <action="pagina-recebedados.tipodepagina" method="post"> <!-- le os dados e faz o processamento dele-->
+        <div>    
+        <label for="nome">Nome</label>  <!--apenas para identificar campo - Acessibilidade-->
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome"> <br><br>
+        </div>
+        <div>     
+            <label for="Email">Email</label> 
+            <input type="email" id="email" name="email" placeholder="Digite seu email"><br><br>
+        </div>
+        <div> 
+            <label for="carro">Selecione o seu carro</label>
+            <select id="carro" name="carro">
+                <option>Volvo</option>
+                <option>Opala</option>
+                <option>Supra</option>
+                <option>Marea</option>
+            </select> 
+            <br><br>
+        </div>
+        <div>
+                <label for="Nascimento">Data de Nascimento</label>
+                <input type="date" id="data-nascimento"
+                name="data-nascimento">
+        </div><br><br><br>
+        <div>
+                <label for="Senha">Senha</label>
+                <input type="password" id="senha" name="senha"
+                placeholder="Digite sua senha">
+        </div><br><br><br>
+        <div>
+            <label for="msg">Mensagem</label>
+            <textarea id="msg"></textarea> <br><Br>
+                <button type="submit">Enviar Mensagem</button><br>
+                <button type="reset"> Limpar Campos </button>
+        </div>   
+        
+    </form> 
+  </body>
+</html>

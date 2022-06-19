@@ -1,0 +1,59 @@
+/*Media é propriedade do css que verifica em qual tela a sua página está sendo visualizada
+Breakpoints - Tamanho de telas do mercado que precisamos nos atentar ao falar de responsividade
+Especificar o que acontece quando chega no breakpoint */
+
+@media only screen and (max-width:600px){
+    body{
+        background: yellow;
+    }
+}
+
+@media only screen and (min-width:600px){
+    body{
+        background: orangered;
+    }
+}
+
+@media only screen and (min-width:768px){
+    body{
+        background: blue;
+    }
+}
+
+@media only screen and (min-width:992px){
+    body{
+        background: green;
+    }
+}
+
+@media only screen and (min-width:1200px){
+    body{
+        background: rgb(194, 25, 166);
+    }
+    h1{
+        font-size: 35px;
+    }
+}
+
+/* Prioridades de configurações: 
+1 - Style in line (tag)
+2 - ID 
+3 - tag + Classe
+4 - Classe 
+5 - tag */
+
+/* h1{
+    color: yellowgreen;
+} 
+
+#meuId{
+    color: yellowgreen;
+}*/
+
+.minhaClasse{
+    color: chocolate;
+}
+
+h1.minhaClasse{
+    color: black;
+}

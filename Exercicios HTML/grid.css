@@ -1,0 +1,31 @@
+header{
+    background: yellow;
+    /* height: 100px; */
+    grid-area: header; /*o que cada coisa vai ficar no lugar - atribuir */
+}
+
+main{
+    background: blue;
+    /* height: 100px; */
+    grid-area: main;
+}
+
+aside{
+    background: green;
+    /* height: 100px; */
+    grid-area: aside;
+}
+
+footer{
+    background: red;
+    /* height: 100px; */
+    grid-area: footer;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* Dividindo a tela com frações. A primeira coluna fica com 3 frações e a segunda com uma fração
+     - Ex: 75% com main e 25% com aside. */
+    grid-template-rows: 20vh 70vh 10vh; /*20% de tudo o que está visivel na tela (vh)*/
+    grid-template-areas: "header header" "main aside" "footer footer";
+}
