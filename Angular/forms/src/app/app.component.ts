@@ -15,4 +15,8 @@ export class AppComponent {
   senha: '',
   username:''
   }
+  salvarUsuario() {
+    alert('Usuário salvo com sucesso')
+    console.log(this.user)
+  }
 }
