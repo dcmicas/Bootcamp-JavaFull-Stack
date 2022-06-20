@@ -12,7 +12,7 @@
 	<artifactId>Servicos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Servicos</name>
-	<description>Projeto desenvolvido no BT20</description>
+	<description>Projeto desenvolvido no bt20</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -33,8 +33,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>com.microsoft.sqlserver</groupId>
-			<artifactId>mssql-jdbc</artifactId>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
@@ -49,6 +49,9 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${project.parent.version}</version>
+
+
 			</plugin>
 		</plugins>
 	</build>
