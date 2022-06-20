@@ -42,7 +42,8 @@
 
         <mat-form-field appearance="outline">
           <mat-label>Email</mat-label>
-          <input type="text" matInput [(ngModel)]="user.email" name="campoEmail" required />
+          <input type="text" matInput [(ngModel)]="user.email" name="campoEmail" 
+          required email/>
           <mat-error>
             <span>Campo inválido</span>
           </mat-error>
@@ -63,9 +64,10 @@
           <mat-checkbox [(ngModel)]="user.aceitaTermosDeCondicao" name="campoTermos" required>
             Aceito termos de Uso</mat-checkbox>
         </section>
-        <br />
+        <br/>
 
-        <button type="submit" mat-stroked-button color="warn">Registrar</button>
+        <button type="submit" mat-stroked-button color="warn" 
+        [disabled]="formUsuario.invalid">Registrar</button>
       </form>
     </mat-card-content>
   </mat-card>
