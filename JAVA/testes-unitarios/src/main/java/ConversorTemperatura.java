@@ -1,0 +1,8 @@
+public class ConversorTemperatura {
+    public double celciustoFahrenheit(double tempC) {
+        return (tempC * 9.0 / 5.0) + 32;
+    }
+    public double fahrenheitToCelsius(double tempF) {
+        return (tempF - 32) * 5.0 / 9.0;
+    }
+}
