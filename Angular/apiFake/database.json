@@ -1,0 +1,40 @@
+{
+  "funcionarios": [
+    {
+      "nome": "Paulo",
+      "email": "paulo123@gmail.com",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/appfuncionariossoulcode.appspot.com/o/1657717000066?alt=media&token=177ec701-f8e2-4f42-ae8a-57c3a9553e80",
+      "id": 1
+    },
+    {
+      "nome": "Elza",
+      "email": "elzaarendele@gmail.com",
+      "foto": "https://firebasestorage.googleapis.com/v0/b/appfuncionariossoulcode.appspot.com/o/1657717016611?alt=media&token=af1615db-f162-4645-b604-409360c4a8c1",
+      "id": 3
+    },
+    {
+      "nome": "Mickey",
+      "email": "mickey@gmail.com",
+      "foto": "",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "nome": "Paulo",
+      "email": "pauloroberto@gmail.com",
+      "foto": ""
+    },
+    {
+      "id": 6,
+      "nome": "Mirabel",
+      "email": "mirabelflores@gmail.com",
+      "foto": ""
+    },
+    {
+      "nome": "Lance O Gato",
+      "email": "lanceogato@gmail.com",
+      "foto": "",
+      "id": 7
+    }
+  ]
+}
